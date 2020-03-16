@@ -12,9 +12,6 @@
     "noUnusedLocals": false,
     "allowJs": true,
     "baseUrl": "src",
-    "paths": {
-      "~/*" : ["*"]
-    }
   },
   "exclude": ["node_modules", "public", ".cache"],
 }

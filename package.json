@@ -1,7 +1,7 @@
 {
   "name": "coronavirusbr",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "informations about coronavírus for brasilian people",
   "version": "0.1.0",
   "author": "Henrique M. Miranda <me@thehenry.dev>",
   "dependencies": {
@@ -49,16 +49,21 @@
     "typescript": "^3.7.5"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "reactjs",
+    "coronavirus",
+    "leading page",
+    "COVID-19"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "preload-fonts": "gatsby-preload-fonts",
+    "start": "npm run develop",
+    "serve": "gatsby serve -H 0.0.0.0",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
