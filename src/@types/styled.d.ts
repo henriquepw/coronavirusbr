@@ -5,9 +5,9 @@ declare module 'styled-components' {
     colors: {
       active: string;
       activeDark: string;
-      backgound: string;
+      background: string;
       primaryText: string;
-      secundaryBackgound: string;
+      secundaryBackground: string;
     };
   }
 }
