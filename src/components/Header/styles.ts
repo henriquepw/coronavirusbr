@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.header`
   position: fixed;
@@ -10,22 +10,34 @@ export const Container = styled.header`
   ul {
     display: flex;
     align-items: center;
+  }
+`;
 
-    li {
-      font-size: 1.8rem;
-      padding: 16px 32px;
+interface ItemProps {
+  selected?: boolean;
+}
 
-      transition: all 0.2s ease;
-    }
+export const Item = styled.li<ItemProps>`
+  font-size: 1.8rem;
+  padding: 16px 32px;
 
-    li {
-      &:hover {
-        background-color: ${({ theme }) => theme.colors.active};
+  transition: all 0.2s ease;
 
-        a {
-          color: ${({ theme }) => theme.colors.background};
-        }
-      }
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.active};
+
+    a {
+      color: ${({ theme }) => theme.colors.background};
     }
   }
+
+  ${({ selected }) =>
+    selected &&
+    css`
+      background-color: ${({ theme }) => theme.colors.active};
+
+      a {
+        color: ${({ theme }) => theme.colors.background};
+      }
+    `}
 `;

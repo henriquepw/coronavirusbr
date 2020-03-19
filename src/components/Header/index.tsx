@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Container } from './styles';
+import { Container, Item } from './styles';
 
 const DATA = [
   {
@@ -18,21 +18,31 @@ const DATA = [
 ];
 
 function Header() {
+  const [selected, setSelected] = useState('home');
+
+  function handleClick(item: string) {
+    setSelected(item);
+  }
+
   return (
     <Container>
       <nav>
         <ul>
           {DATA.map(item => (
-            <li key={`${item.key}_${item.name}`}>
+            <Item
+              onClick={() => handleClick(item.name)}
+              selected={selected === item.name}
+              key={`${item.key}_${item.name}`}
+            >
               <a
                 href={`#${item.name
                   .toLowerCase()
                   .split(' ')
-                  .join()}`}
+                  .join('-')}`}
               >
                 {item.name}
               </a>
-            </li>
+            </Item>
           ))}
         </ul>
       </nav>
