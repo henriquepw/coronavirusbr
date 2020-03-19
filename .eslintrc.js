@@ -41,6 +41,11 @@ module.exports = {
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-param-reassign': 'off',
     'no-underscore-dangle': 'off',
+    'implicit-arrow-linebreak': 'off', // temporary
+    'indent': 'off', // temporary
+    'operator-linebreak': 'off', // temporary
+    "no-unused-expressions": "off", // temporary
+    "@typescript-eslint/no-unused-expressions": "error", // temporary
     'react/jsx-filename-extension': [
       'error',
       {
@@ -67,10 +72,8 @@ module.exports = {
         groups: [
           '/^(react|styled-components)/',
           'module',
-          '/^~/atoms/',
-          '/^~/molecules/',
-          '/^~/organismis/',
           '/^~/templates/',
+          '/^~/components/',
           '/^~/context/',
           ['parent', 'sibling', 'index'],
           '/^~/(assets|res)/',

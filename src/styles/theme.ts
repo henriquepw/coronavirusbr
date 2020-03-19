@@ -1,8 +1,11 @@
+import { darken } from 'polished';
+
 export default {
   colors: {
-    text: '#333333',
     active: '#CF526C',
+    activeDark: darken(0.1, '#CF526C'),
     background: '#F6F6F6',
+    primaryText: '#333333',
     secondaryBackground: '#F1F2F3',
   },
 };

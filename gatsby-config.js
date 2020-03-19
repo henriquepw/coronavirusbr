@@ -39,6 +39,7 @@ module.exports = {
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',
+    'gatsby-plugin-polished',
     // {
     //   resolve: 'gatsby-plugin-google-analytics',
     //   options: {
