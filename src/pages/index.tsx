@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 
+import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import Home from '~/components/Home';
 import SEO from '~/components/SEO';
@@ -12,6 +13,7 @@ const IndexPage: FC = () => (
     <Header />
     <SEO title="Home" />
     <Home />
+    <Footer />
   </>
 );
 
