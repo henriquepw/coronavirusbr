@@ -22,6 +22,14 @@ export const Container = styled.a<Props>`
     !secondary &&
     css`
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+
+      &:hover {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+      }
+
+      &:active {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+      }
     `}
 
   ${({ secondary, theme }) =>
@@ -33,10 +41,10 @@ export const Container = styled.a<Props>`
     `}
 
   &:hover {
-    transform: scale(1.048) translateY(0);
+    background-color: ${({ theme }) => theme.colors.activeDark};
   }
 
   &:active {
-    transform: scale(0.95) translateY(0);
+    transform: scale(0.98) translateY(0);
   }
 `;

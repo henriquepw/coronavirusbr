@@ -21,12 +21,11 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    outline: none;
     box-sizing: border-box;
 
     &::selection {
       background-color: ${({ theme }) => theme.colors.active};
-      color: ${({ theme }) => theme.colors.backgound};;
+      color: ${({ theme }) => theme.colors.background};
     }
   }
 
@@ -37,10 +36,10 @@ export default createGlobalStyle`
   }
 
   html, body {
-    font: 100% 'Poppins', sans-serif;
+    font: 62.5% 'Poppins', sans-serif;
     font-weight: 400;
 
-    background-color: ${({ theme }) => theme.colors.backgound};
+    background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.primaryText};
 
     text-rendering: optimizeLegibility;
@@ -70,7 +69,7 @@ export default createGlobalStyle`
   }
 
   button {
-    font: 16px 'Poppins', sans-serif;
+    font: 62.5% 'Poppins', sans-serif;
     font-weight: 400;
 
     background: transparent;
