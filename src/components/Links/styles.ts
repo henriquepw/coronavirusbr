@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import section from '~/styles/section';
 
 export const Container = styled(section)`
+  padding-top: 104px;
+
   img {
     max-height: 321px;
   }
