@@ -6,6 +6,7 @@ import { Container } from './styles';
 
 interface Props {
   data: {
+    id: number;
     title: string;
     description: string;
     url: string;

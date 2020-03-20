@@ -3,9 +3,9 @@ import React from 'react';
 import Title from '../Title';
 import Information from './Information';
 
-import { Container } from './styles';
+import data from '~/assets/data/links.json';
 
-const DATA = [1, 2, 3, 4, 5];
+import { Container } from './styles';
 
 function Links() {
   return (
@@ -13,14 +13,11 @@ function Links() {
       <Title title="Links úteis" subtitle="Para você não ficar perido" />
 
       <ul>
-        {DATA.map(item => (
+        {data.map(item => (
           <Information
-            key={item}
+            key={`${item.id}_${item.title}`}
             data={{
-              title: 'title',
-              description:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel',
-              url: 'http://google.com/',
+              ...item,
               image: 'https://api.adorable.io/avatars/321/corona@virus.png',
             }}
           />

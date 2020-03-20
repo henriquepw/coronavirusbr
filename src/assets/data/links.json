@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Especial Coronavirus (COVID-19)",
+    "description": "Site do Sistema Único de Saúde informando prevenções de contagio e alguns dados sobre o Coronavírus no Brasil.",
+    "url": "https://www.unasus.gov.br/especial/covid19"
+  },
+  {
+    "id": 1,
+    "title": "Dados sobre casos de Coronavírus no Brasil e no Mundo (COVID-19)",
+    "description": "Plataforma Integrada de Vigilância em Saúde que informa os dados sobre infectados no Brasil e no mundo. Possui também indicações de procedimentos a serem seguidos em um caso de suspeita",
+    "url": "http://plataforma.saude.gov.br/novocoronavirus/"
+  },
+  {
+    "id": 2,
+    "title": "Aplicativo sobre o Coronavírus disponibilizado pelo Ministério da Saúde",
+    "description": "Aplicativo com dicas de prevenção e um número do Whatsapp para tirar dúvidas, receber instruções e evitar espalhar fake-news.",
+    "url": "https://www.unasus.gov.br/noticia/ministerio-da-saude-disponibiliza-aplicativo-sobre-o-coronavirus"
+  },
+  {
+    "id": 3,
+    "title": "Grupo de Telegram do Atila Iamarino",
+    "description": "Grupo de Telegram onde o Biologo, pesquisador com Doutorado em Virologia atualiza diariamente sobre informações sobre a pandemia do COVID-19, o coronavírus.",
+    "url": "https://t.me/corona_atila"
+  },
+  {
+    "id": 4,
+    "title": "Coronavírus no Brasil, o que fazer?",
+    "description": "Post no blog Rainha Vermelha explicando algumas informações do Coronavírus e informações uteis que podem nos ajudar a combater a contaminação no Brasil.",
+    "url": "http://scienceblogs.com.br/rainha/2020/02/coronavirus-no-brasil-o-que-fazer/"
+  }
+]
