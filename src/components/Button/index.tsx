@@ -13,9 +13,11 @@ const Button: FC<Props> = ({ children, href, secondary, external }) => {
   const target = external ? '_blank' : '_self';
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    event.preventDefault();
+    if (!external) {
+      event.preventDefault();
 
-    document.querySelector(href)?.scrollIntoView();
+      document.querySelector(href)?.scrollIntoView();
+    }
   }
 
   return (
