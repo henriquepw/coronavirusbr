@@ -23,6 +23,7 @@ export const Container = styled(section)`
     height: 100vh;
     width: 40%;
 
+    z-index: 15;
     pointer-events: none;
   }
 `;
