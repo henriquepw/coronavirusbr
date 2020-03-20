@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.header`
   position: fixed;
@@ -11,33 +11,4 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
   }
-`;
-
-interface ItemProps {
-  selected?: boolean;
-}
-
-export const Item = styled.li<ItemProps>`
-  font-size: 1.8rem;
-  padding: 16px 32px;
-
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.active};
-
-    a {
-      color: ${({ theme }) => theme.colors.background};
-    }
-  }
-
-  ${({ selected }) =>
-    selected &&
-    css`
-      background-color: ${({ theme }) => theme.colors.active};
-
-      a {
-        color: ${({ theme }) => theme.colors.background};
-      }
-    `}
 `;

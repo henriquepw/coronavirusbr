@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-import { Container, Item } from './styles';
+import NavItem from './NavItem';
+
+import { Container } from './styles';
 
 const DATA = [
   {
@@ -18,10 +20,31 @@ const DATA = [
 ];
 
 function Header() {
-  const [selected, setSelected] = useState('home');
+  const [selected, setSelected] = useState(() => {
+    const hash = window.location.hash.split('#')[1];
 
-  function handleClick(item: string) {
-    setSelected(item);
+    if (
+      !DATA.filter(item => item.name.split(' ')[0].toLowerCase() === hash)
+        .length
+    ) {
+      return 'home';
+    }
+
+    window.location.hash = '';
+
+    return hash;
+  });
+
+  function handlerSelected(
+    event: React.MouseEvent<HTMLLIElement, MouseEvent>,
+    name: string
+  ) {
+    event.preventDefault();
+
+    if (selected !== name) {
+      setSelected(name);
+      document.getElementById(name)?.scrollIntoView();
+    }
   }
 
   return (
@@ -29,20 +52,12 @@ function Header() {
       <nav>
         <ul>
           {DATA.map(item => (
-            <Item
-              onClick={() => handleClick(item.name)}
-              selected={selected === item.name}
+            <NavItem
               key={`${item.key}_${item.name}`}
-            >
-              <a
-                href={`#${item.name
-                  .toLowerCase()
-                  .split(' ')
-                  .join('-')}`}
-              >
-                {item.name}
-              </a>
-            </Item>
+              onClick={handlerSelected}
+              selected={selected}
+              item={item}
+            />
           ))}
         </ul>
       </nav>
