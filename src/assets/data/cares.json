@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "text": "Lavar as mãos com água e sabão que é o mais efetivo para eliminar o vírus. Use álcool em gel apenas quando não puder lavar.",
+    "icon": "handWash",
+    "alt": ""
+  },
+  {
+    "id": "1",
+    "text": "Evitar tocar o rosto. Evite tocar olhos, nariz e boca com as mãos não lavadas.",
+    "icon": "face",
+    "alt": ""
+  },
+  {
+    "id": "2",
+    "text": "Cobrir a boca e nariz ao tossir ou espirrar.  Utilize um lenço ou coloque o braço em frente ao rosto.  Não use as mãos.",
+    "icon": "cough",
+    "alt": ""
+  },
+  {
+    "id": "3",
+    "text": "Não divida objetos de uso pessoal, como talheres, toalhas, pratos e copos.",
+    "icon": "metal",
+    "alt": ""
+  },
+  {
+    "id": "4",
+    "text": "Se apresentar sintomas evite contato físico.  Permaneça em casa durante 14 dias caso apresente algum dos sintomas.  Evite transmissão.",
+    "icon": "quarantine",
+    "alt": ""
+  },
+  {
+    "id": "5",
+    "text": "Evite aglomerações e mantenha ambientes ventilados.  Saia de casa somente se necessário.",
+    "icon": "openDoor",
+    "alt": ""
+  }
+]

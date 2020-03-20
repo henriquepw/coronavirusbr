@@ -1,15 +1,17 @@
 import React, { FC } from 'react';
 
-import { Container, Icon } from './styles';
+import { Container } from './styles';
 
 interface Props {
   text: string;
   inverted?: boolean;
+  icon: string;
+  alt: string;
 }
 
-const CareItem: FC<Props> = ({ text, inverted }) => (
+const CareItem: FC<Props> = ({ text, inverted, icon, alt }) => (
   <Container inverted={inverted}>
-    <Icon />
+    <img src={icon} alt={alt} />
     <p>{text}</p>
   </Container>
 );

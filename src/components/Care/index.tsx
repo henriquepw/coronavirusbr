@@ -8,7 +8,7 @@ import { Container } from './styles';
 
 function Care() {
   return (
-    <Container>
+    <Container id="cuidados">
       <Title title="Cuidados" subtitle="De acordo com a OMS e o SUS" />
       <CareList />
     </Container>

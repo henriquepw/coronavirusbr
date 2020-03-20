@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
+import media from '~/styles/media';
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 10px 1fr;
   grid-template-rows: repeat(3, 60px);
-  row-gap: 32px;
-  max-width: 1052;
-  margin: 88px 118px;
+  row-gap: 64px;
+  max-width: 1052px;
+  margin: 88px auto;
 
   &:nth-child(odd) {
     grid-column: 1;
@@ -18,7 +20,7 @@ export const Container = styled.div`
     grid-row: auto;
   }
 
-  @media (max-width: 920px) {
+  @media (max-width: ${media.tablet}) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,7 +29,7 @@ export const Container = styled.div`
     margin: 72px auto;
 
     & > div {
-      margin: 20px;
+      margin-bottom: 64px;
     }
   }
 `;
@@ -51,7 +53,7 @@ export const VerticalDivider = styled.div`
   width: 4px;
   transform: translate(0, -12%);
 
-  @media (max-width: 920px) {
+  @media (max-width: ${media.tablet}) {
     display: none;
   }
 `;

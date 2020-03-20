@@ -12,12 +12,11 @@ export const Container = styled.div<Props>`
     font-size: 1.5rem;
     margin: 0 36px;
     max-width: 312px;
+    text-align: ${({ inverted }) => (inverted ? 'right' : 'left')};
   }
-`;
 
-export const Icon = styled.div`
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.active};
+  img {
+    width: 60px;
+    height: 60px;
+  }
 `;

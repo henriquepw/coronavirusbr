@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
-  height: 100vh;
-  padding: 40px 0;
+import media from '~/styles/media';
+import section from '~/styles/section';
 
-  @media (max-width: 902px) {
+export const Container = styled(section)`
+  height: 100vh;
+  padding: 40px auto;
+  padding-top: 104px;
+
+  @media (max-width: ${media.tablet}) {
     height: auto;
   }
 `;
