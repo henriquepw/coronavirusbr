@@ -32,17 +32,22 @@ export const Container = styled.a<Props>`
       }
     `}
 
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.activeDark};
+  }
+
   ${({ secondary, theme }) =>
     secondary &&
     css`
       color: ${theme.colors.primaryText};
       background-color: ${theme.colors.background};
       border: ${theme.colors.active} solid 2px;
-    `}
 
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.activeDark};
-  }
+      &:hover {
+        background-color: ${theme.colors.active};
+        color: ${theme.colors.background};
+      }
+    `}
 
   &:active {
     transform: scale(0.98) translateY(0);

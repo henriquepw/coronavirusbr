@@ -21,13 +21,13 @@ const Home: FC = () => {
   `);
 
   return (
-    <Container>
+    <Container id="home">
       <div>
         <h1>Coronavírus BR</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
         </p>
-        <Button href="#">Saiba mais</Button>
+        <Button href="#cuidados">Saiba mais</Button>
       </div>
       <Img fluid={image.sharp.fluid} />
     </Container>

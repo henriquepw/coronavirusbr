@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#CF526C',
         theme_color: '#CF526C',
         display: 'minimal-ui',
-        icon: 'src/assets/images/background.png',
+        icon: 'src/assets/images/icon.png',
       },
     },
     {

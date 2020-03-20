@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+import section from '~/styles/section';
+
+export const Container = styled(section)`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 0;
 
   h1 {
     font-size: 4.8rem;
@@ -20,6 +23,7 @@ export const Container = styled.section`
     height: 100vh;
     width: 40%;
 
+    z-index: 15;
     pointer-events: none;
   }
 `;
