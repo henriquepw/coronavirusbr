@@ -45,6 +45,10 @@ export default createGlobalStyle`
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+
+    @media(max-width: ${media.phone}) {
+      font: 54.6875% 'Poppins', sans-serif;
+    }
   }
 
   body.using-mouse {

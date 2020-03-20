@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Container } from './styles';
+import { Container, Icon } from './styles';
 
 interface Props {
   text: string;
@@ -8,10 +8,9 @@ interface Props {
 }
 
 const CareItem: FC<Props> = ({ text, inverted }) => (
-  <Container>
-    {!inverted ? <div className="icon" /> : ''}
+  <Container inverted={inverted}>
+    <Icon />
     <p>{text}</p>
-    {inverted ? <div className="icon" /> : ''}
   </Container>
 );
 
