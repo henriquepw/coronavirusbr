@@ -11,15 +11,15 @@ export const Container = styled.div`
 
   hr {
     display: inline-block;
-    width: 5rem;
-    margin: 0 3rem;
+    width: 50px;
+    margin: 0 30px;
 
     border-top: none;
     border-left: none;
-    border-bottom: 0.2rem solid ${({ theme }) => theme.colors.active};
-    border-radius: 0.1rem;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.active};
+    border-radius: 1px;
 
-    transform: translate(0, -1rem);
+    transform: translate(0, -10px);
   }
 
   h6 {
