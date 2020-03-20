@@ -5,7 +5,15 @@ export const Container = styled.li`
   align-items: center;
   justify-content: center;
 
-  div {
+  div:first-of-type {
+    width: 100%;
+    height: 100%;
+
+    max-width: 315px;
+    max-height: 321px;
+  }
+
+  div:nth-of-type(2) {
     margin-left: 48px;
 
     h1 {

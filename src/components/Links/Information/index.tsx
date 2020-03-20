@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 
+import Img, { FluidObject } from 'gatsby-image';
+
 import Button from '~/components/Button';
 
 import { Container } from './styles';
@@ -10,13 +12,13 @@ interface Props {
     title: string;
     description: string;
     url: string;
-    image: string;
+    fluid: FluidObject;
   };
 }
 
 const Link: FC<Props> = ({ data }) => (
   <Container>
-    <img src={data.image} alt={data.title} />
+    <Img fluid={data.fluid} />
     <div>
       <h1>{data.title}</h1>
       <p>{data.description}</p>
