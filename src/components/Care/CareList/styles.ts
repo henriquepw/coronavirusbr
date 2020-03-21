@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 10px 1fr;
   grid-template-rows: repeat(3, 60px);
-  row-gap: 64px;
+  row-gap: 80px;
   max-width: 1052px;
   margin: 88px auto;
 
@@ -49,7 +49,7 @@ export const VerticalDivider = styled.div`
 
   border-radius: 2px;
 
-  height: 376px;
+  height: 440px;
   width: 4px;
   transform: translate(0, -12%);
 
