@@ -32,28 +32,29 @@ Este site foi criado e é mantido por estudantes de graduação da cidade de Cam
 
 
 ## Mantidos por
-<a href="http://github.com/henry-ns"><img src="https://avatars0.githubusercontent.com/u/16365204?s=460&u=4c076068404dd2a42655c5b4dac977bcef7be34a&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<table style="width:100%">
+
+  <tr>
+    <td><a href="http://github.com/henry-ns"><img src="https://avatars0.githubusercontent.com/u/16365204?s=460&u=4c076068404dd2a42655c5b4dac977bcef7be34a&v=4" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Henrique Miranda</h3>
-<p>Desenvolvedor e designer<br>Graduando em Telemática - IFPB</p>
-
-
-<a href="http://github.com/felipefbs"><img src="https://avatars2.githubusercontent.com/u/34188166?s=460&u=cb0f8a8a1ffa0f849760231156bba2ab55eed2ac&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<p>Desenvolvedor e designer<br>Graduando em Telemática - IFPB</p></td>
+    <td><a href="http://github.com/felipefbs"><img src="https://avatars2.githubusercontent.com/u/34188166?s=460&u=cb0f8a8a1ffa0f849760231156bba2ab55eed2ac&v=4" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Felipe Ferreira</h3>
-<p>Desenvolvedor<br>Graduando em Telemática - IFPB</p>
-
-
-<a href="http://github.com/GabrielSBarros"><img src="https://avatars1.githubusercontent.com/u/16857391?s=460&u=ed3483cabd445be9f710a10bbdc74e45fa198b49&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<p>Desenvolvedor<br>Graduando em Telemática - IFPB</p></td>
+    <td><a href="http://github.com/GabrielSBarros"><img src="https://avatars1.githubusercontent.com/u/16857391?s=460&u=ed3483cabd445be9f710a10bbdc74e45fa198b49&v=4" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Gabriel Barros</h3>
-<p>Desenvolvedor<br>Graduando em Ciências da Computação - UFCG</p>
-
-
-<a href="https://www.instagram.com/lucas_kellorran/"><img src="https://pbs.twimg.com/profile_images/1018977628538261506/z9QrEFih_400x400.jpg" height="auto" width="120" style="border-radius:50%"></a>
+<p>Desenvolvedor<br>Graduando em Ciências da Computação - UFCG</p></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.instagram.com/lucas_kellorran/"><img src="https://pbs.twimg.com/profile_images/1018977628538261506/z9QrEFih_400x400.jpg" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Lucas Kellorran</h3>
-<p>Consutoria Técnica<br>Graduando em Biologia - UEPB</p>
-
-<a href="https://www.instagram.com/jennirestaum/"><img src="https://lh3.googleusercontent.com/0wRlj5A_L_w34eu83NxCIpCPdCBuHMcKqCiGDtkF6kysfxi79bpkEIBxQmRCwRnjNhGcOtuAv3Q6drg_BSrfUrDdMOWGIqIr3MRZlZ9HZwsgBW0hHMTnNi6diVhY5qKw_OxAHoq1qzT0CrL9WD__MmALrIAIu-hlf_zI-2Lpsc4ZWMD7PaZPJxYUuFpuPJQEXKHaVac-GUmuFgibSMcQnT3CuJ2adbiyWOIMJegh6_n-A-8U83CceZ1WNfzGoQtU7kzQvk_Ha688OnDz0kKfHwsSq521LyTEw_vyJJWGZeCtBYx-Zx5hfpGGK_I6VTip3Y0sUjVqgAs83xW_mzMeyUkz7KZPr7jMG2niTc3DmHk05iZ98t9KOMcCYAKCkH0j2O63YSPlal4yF5PKIvbRInxx_IszsAfwDakg530rDbelRJ6vut3BOZGCjwZ6DVWvLscySGMOlcZcH9xHyqxghEh4dU57kQSDIsCp1xWyCmaAsyUUiTgTzE6UxjyieJW6lBZBUURZ2dH9mNHFFAopg-5YP5M7gbb77KzN-tqPO9GE-S9yTZskXdeI_c_-nuK_2rqpVH0ejOT4gDRbwaydOmleqjIPFVNZexHD9ulTtyNBPry6c-iejFt5qqAJ-Jqx2i64VOYgx3eXO9MmBoT_wQLnGqyujpINh83nTJNukrAUHpzBVmpsd1NTg2B2FUc=s640-no" height="auto" width="120" style="border-radius:50%"></a>
+<p>Consutoria Técnica<br>Graduando em Biologia - UEPB</p></td>
+    <td><a href="https://www.instagram.com/jennirestaum/"><img src="./assets/jennifer.jpeg" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Jennifer Regina</h3>
-<p>Consutoria Técnica<br>Graduando em Fisioterapia - UEPB</p>
+<p>Consutoria Técnica<br>Graduando em Fisioterapia - UEPB</p></td>
+    <td></td>
+  </tr>
+</table>
 
 ## 🧐 O que tem dentro?
 
