@@ -11,9 +11,10 @@ import { Container, VerticalDivider } from './styles';
 function CareList() {
   return (
     <Container>
-      {cares.map(({ id, text, icon, alt }) => (
+      {cares.map(({ id, title, text, icon, alt }) => (
         <CareItem
           key={id}
+          title={title}
           text={text}
           icon={careImages[icon]}
           alt={alt}

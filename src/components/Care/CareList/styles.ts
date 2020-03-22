@@ -4,11 +4,11 @@ import media from '~/styles/media';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 10px 1fr;
-  grid-template-rows: repeat(3, 60px);
-  row-gap: 80px;
-  max-width: 1052px;
-  margin: 88px auto;
+  grid-template-columns: 1fr 89px 1fr;
+  grid-template-rows: auto-fill;
+  row-gap: 64px;
+  margin: 88px 28px;
+  height: auto;
 
   &:nth-child(odd) {
     grid-column: 1;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     grid-row: auto;
   }
 
-  @media (max-width: ${media.tablet}) {
+  @media (max-width: ${media.smallDesktop}) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,11 +49,12 @@ export const VerticalDivider = styled.div`
 
   border-radius: 2px;
 
-  height: 440px;
-  width: 4px;
-  transform: translate(0, -12%);
+  height: 100%;
+  width: 1px;
+  margin: 0 auto;
+  /* transform: translate(0, -12%); */
 
-  @media (max-width: ${media.tablet}) {
+  @media (max-width: ${media.smallDesktop}) {
     display: none;
   }
 `;
