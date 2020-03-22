@@ -1,37 +1,43 @@
 [
   {
     "id": "0",
-    "text": "Lavar as mãos com água e sabão que é o mais efetivo para eliminar o vírus. Use álcool em gel apenas quando não puder lavar.",
+    "title": "Lavar as mãos",
+    "text": "Lavar as mãos com água e sabão por pelo menos 20 segundos é o mais efetivo na eliminação do vírus. Use álcool em gel apenas quando não puder lavar mãos.",
     "icon": "handWash",
     "alt": ""
   },
   {
     "id": "1",
-    "text": "Evitar tocar o rosto. Evite tocar olhos, nariz e boca com as mãos não lavadas.",
+    "title": "Evite tocar o rosto",
+    "text": "Evite tocar o rosto, principalmente na região dos olhos, nariz e boca com as mãos não lavadas.",
     "icon": "face",
     "alt": ""
   },
   {
     "id": "2",
-    "text": "Cobrir a boca e nariz ao tossir ou espirrar.  Utilize um lenço ou coloque o braço em frente ao rosto.  Não use as mãos.",
+    "title": "Ao tossir ou espirrar",
+    "text": "Cobrir a boca e nariz ao tossir ou espirrar. Utilize um lenço ou coloque o braço em frente ao rosto. Não use as mãos.",
     "icon": "cough",
     "alt": ""
   },
   {
     "id": "3",
-    "text": "Não divida objetos de uso pessoal, como talheres, toalhas, pratos e copos.",
+    "title": "Não partilhe objetos",
+    "text": "Não partilhe objetos de uso pessoal, como talheres, toalhas, pratos e copos. Evite contato físico, como apertos de mão e abraços e, sempre que possível, limpe as mãos após tocar em um fômite (maçanetas, dinheiro, corrimões, etc).",
     "icon": "metal",
     "alt": ""
   },
   {
     "id": "4",
-    "text": "Se apresentar sintomas evite contato físico.  Permaneça em casa durante 14 dias caso apresente algum dos sintomas.  Evite transmissão.",
+    "title": "Se apresentar sintomas",
+    "text": "Se entrar em contato com alguém infectado, permaneça em casa durante 14 dias para evitar a propagação e, caso comece a apresentar algum dos sintomas, procure ajuda médica.",
     "icon": "quarantine",
     "alt": ""
   },
   {
     "id": "5",
-    "text": "Evite aglomerações e mantenha ambientes ventilados.  Saia de casa somente se necessário.",
+    "title": "Evite aglomerações",
+    "text": "Evite aglomerações e mantenha os ambientes ventilados. Saia de casa somente se necessário.",
     "icon": "openDoor",
     "alt": ""
   }
