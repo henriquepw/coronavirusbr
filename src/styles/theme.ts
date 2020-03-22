@@ -6,6 +6,6 @@ export default {
     activeDark: darken(0.1, '#CF526C'),
     background: '#F6F6F6',
     primaryText: '#333333',
-    secondaryBackground: '#F1F2F3',
+    secundaryBackground: '#F1F2F3',
   },
 };
