@@ -52,7 +52,6 @@ Este site foi criado e é mantido por estudantes de graduação da cidade de Cam
     <td><a href="https://www.instagram.com/jennirestaum/"><img src="./assets/jennifer.jpeg" height="auto" width="120" style="border-radius:50%"></a>
 <h3>Jennifer Regina</h3>
 <p>Consutoria Técnica<br>Graduando em Fisioterapia - UEPB</p></td>
-    <td></td>
   </tr>
 </table>
 
