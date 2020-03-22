@@ -48,27 +48,33 @@ export const Container = styled(section)`
     }
   }
 
+  @media (max-width: ${media.tablet}) {
+    div:nth-of-type(2) {
+      z-index: 5;
+    }
+  }
+
   @media (max-width: ${media.smallTablet}) {
     min-height: 100vh;
     justify-content: flex-end;
     flex-direction: column-reverse;
-    margin: 80px 0;
+    margin-bottom: 80px;
 
     height: 100px;
     width: 100%;
 
     div:nth-of-type(2) {
+      margin-top: 80px;
       height: 35%;
       width: 100%;
 
       border: 2px solid ${({ theme }) => theme.colors.active};
       margin-bottom: 48px;
-      z-index: 5;
     }
   }
 
   @media (max-width: ${media.bigPhone}) {
-    margin: 80px 0 32px;
+    margin-bottom: 32px;
 
     p {
       margin: 8px 0 32px 0;

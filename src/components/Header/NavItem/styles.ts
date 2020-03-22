@@ -5,10 +5,10 @@ interface Props {
 }
 
 export const Container = styled.li<Props>`
-  font-size: 1.8rem;
   padding: 16px 32px;
   cursor: pointer;
 
+  user-select: none;
   transition: all 0.2s ease;
 
   &:hover {

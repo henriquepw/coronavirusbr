@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { FaBars } from 'react-icons/fa';
 
 import NavItem from './NavItem';
 
-import { Container } from './styles';
+import { Container, Menu } from './styles';
 
 const DATA = [
   {
@@ -20,6 +21,7 @@ const DATA = [
 ];
 
 function Header() {
+  const [pressed, setPressed] = useState(false);
   const [selected, setSelected] = useState(() => {
     const hash = window.location.hash.split('#')[1];
 
@@ -45,11 +47,18 @@ function Header() {
       setSelected(name);
       document.getElementById(name)?.scrollIntoView();
     }
+
+    setPressed(false);
+  }
+
+  function togglePressed() {
+    setPressed(!pressed);
   }
 
   return (
     <Container>
-      <nav>
+      <Menu pressed={pressed}>
+        <FaBars size={32} onClick={togglePressed} />
         <ul>
           {DATA.map(item => (
             <NavItem
@@ -60,7 +69,7 @@ function Header() {
             />
           ))}
         </ul>
-      </nav>
+      </Menu>
     </Container>
   );
 }
