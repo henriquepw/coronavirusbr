@@ -24,16 +24,10 @@
   </a>
 </p>
 
-> Em contrução...
-
 ## :clipboard: Descrição
-O Coronavírus BR é um site desenvolvido com o intuito de ajudar o povo brasileiro no controle da pandemia de COVID-19. Disponibilizando informações sobre a doença, como:
+O Coronavírus BR é um site desenvolvido com o intuito de ajudar o povo brasileiro no controle da pandemia de COVID-19.
 
-  - Sintomas da doença
-  - Grupos de risco
-  - Cuidados para evitar o contágio
-  - Importância dos cuidados
-  - Links de fontes confiáveis
+Este site foi criado e é mantido por estudantes de graduação da cidade de Campina Grande - PB, preocupados pela pandemia que o novo vírus, o COVID-19, causou ao mundo. Nós nos preocupamos em desenvolver este site, totalmente responsivo e de fácil utilização, para que todos tenham acesso a informações oficiais dos principais órgãos de saúde brasileiros e mundiais, o Ministério da Saúde e a Organização Mundial da Saúde, bem como fontes de relevância e que possuem conteúdo confiável como o Biólogo e Doutor em Virologia Atila Iamarino que desde o inicio do surto vem apresentando importantes informações sobre a disseminação desse vírus. Além de links que possam ajudar a todos entender melhor sobre a pandemia do coronavírus, disponibilizamos uma seção com os cuidados que todos temos que ter para evitar ao máximo a disseminação do vírus.
 
 ## :man: Criadores
 
