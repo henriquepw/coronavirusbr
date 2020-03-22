@@ -27,7 +27,6 @@ export const Container = styled.div<Props>`
 
   img {
     width: 120px;
-    height: 120px;
   }
 
   @media (max-width: ${media.smallDesktop}) {
@@ -37,7 +36,6 @@ export const Container = styled.div<Props>`
   @media (max-width: ${media.phone}) {
     img {
       width: 96px;
-      height: 96px;
     }
   }
 `;
