@@ -30,8 +30,30 @@ O Coronavírus BR é um site desenvolvido com o intuito de ajudar o povo brasile
 Este site foi criado e é mantido por estudantes de graduação da cidade de Campina Grande - PB, preocupados pela pandemia que o novo vírus, o COVID-19, causou ao mundo. Nós nos preocupamos em desenvolver este site, totalmente responsivo e de fácil utilização, para que todos tenham acesso a informações oficiais dos principais órgãos de saúde brasileiros e mundiais, o Ministério da Saúde e a Organização Mundial da Saúde, bem como fontes de relevância e que possuem conteúdo confiável como o Biólogo e Doutor em Virologia Atila Iamarino que desde o inicio do surto vem apresentando importantes informações sobre a disseminação desse vírus. Além de links que possam ajudar a todos entender melhor sobre a pandemia do coronavírus, disponibilizamos uma seção com os cuidados que todos temos que ter para evitar ao máximo a disseminação do vírus.
 
 ## :man: Criadores
+<table style="width:100%">
 
-## :busts_in_silhouette: como contruir
+  <tr>
+    <td align="center"><a href="http://github.com/henry-ns"><img src="https://avatars0.githubusercontent.com/u/16365204?s=460&u=4c076068404dd2a42655c5b4dac977bcef7be34a&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Henrique Miranda</h3>
+<p>Desenvolvedor e designer<br>Graduando em Telemática - IFPB</p></td>
+    <td align="center"><a href="http://github.com/felipefbs"><img src="https://avatars2.githubusercontent.com/u/34188166?s=460&u=cb0f8a8a1ffa0f849760231156bba2ab55eed2ac&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Felipe Ferreira</h3>
+<p>Desenvolvedor<br>Graduando em Telemática - IFPB</p></td>
+    <td align="center"><a href="http://github.com/GabrielSBarros"><img src="https://avatars1.githubusercontent.com/u/16857391?s=460&u=ed3483cabd445be9f710a10bbdc74e45fa198b49&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Gabriel Barros</h3>
+<p>Desenvolvedor<br>Graduando em Ciências da Computação - UFCG</p></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.instagram.com/lucas_kellorran/"><img src="https://pbs.twimg.com/profile_images/1018977628538261506/z9QrEFih_400x400.jpg" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Lucas Kellorran</h3>
+<p>Consutoria Técnica<br>Graduando em Biologia - UEPB</p></td>
+    <td align="center"><a href="https://www.instagram.com/jennirestaum/"><img src="./assets/jennifer.jpeg" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Jennifer Regina</h3>
+<p>Consutoria Técnica<br>Graduando em Fisioterapia - UEPB</p></td>
+  </tr>
+</table>
+
+## :busts_in_silhouette: Como contruir
 Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma [issue](https://github.com/henry-ns/coronavirusbr/issues), ficaremos felizes com sua ajuda :smile:.
 
 ## 🧐 O que tem dentro?
