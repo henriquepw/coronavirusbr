@@ -24,12 +24,15 @@
   </a>
 </p>
 
-> under construction...
+> Em contrução...
 
 ## :clipboard: Desacrição
 
 
-## Mantidos por
+## :man: Criadores
+
+## :busts_in_silhouette: como contruir
+Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma [issue](https://github.com/henry-ns/coronavirusbr/issues), ficaremos felizes com sua ajuda :smile:.
 
 ## 🧐 O que tem dentro?
 
@@ -44,7 +47,7 @@
 ### Pacotes
 - [React Helmet Async](https://github.com/staylor/react-helmet-async)
 - [React Icons](https://react-icons.netlify.com/#/)
-- [React Loadable](https://github.com/jamiebuilds/react-loadable)
+- [Loadable Components](https://loadable-components.com/)
 - [Styled Compoments](https://www.styled-components.com/)
 - [Polished](https://polished.js.org/)
 - [Typeface Poppins](https://www.npmjs.com/package/typeface-poppins)
