@@ -26,8 +26,14 @@
 
 > Em contrução...
 
-## :clipboard: Desacrição
+## :clipboard: Descrição
+O Coronavírus BR é um site desenvolvido com o intuito de ajudar o povo brasileiro no controle da pandemia de COVID-19. Disponibilizando informações sobre a doença, como:
 
+  - Sintomas da doença
+  - Grupos de risco
+  - Cuidados para evitar o contágio
+  - Importância dos cuidados
+  - Links de fontes confiáveis
 
 ## :man: Criadores
 
