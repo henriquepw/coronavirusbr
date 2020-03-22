@@ -4,11 +4,11 @@ import media from '~/styles/media';
 import section from '~/styles/section';
 
 export const Container = styled(section)`
-  height: 100vh;
+  min-height: 100vh;
   padding: 40px auto;
   padding-top: 104px;
 
-  @media (max-width: ${media.tablet}) {
+  @media (max-width: ${media.smallDesktop}) {
     height: auto;
   }
 `;
