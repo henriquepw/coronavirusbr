@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 const Footer: FC = () => (
   <Container>
-    <p>Feito com carinho por estudantes da paraiba</p>
+    <p>Feito com carinho por estudantes da Paraíba</p>
     <a
       href="http://github.com/henry-ns"
       rel="noopener noreferrer"
