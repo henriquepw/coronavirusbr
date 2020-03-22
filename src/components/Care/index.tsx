@@ -9,7 +9,10 @@ import { Container } from './styles';
 function Care() {
   return (
     <Container id="cuidados">
-      <Title title="Cuidados" subtitle="De acordo com a OMS e o SUS" />
+      <Title
+        title="Cuidados"
+        subtitle="De acordo com a Organização Mundial da Saúde (OMS) e o SUS"
+      />
       <CareList />
     </Container>
   );
