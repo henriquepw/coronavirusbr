@@ -6,7 +6,7 @@ const Footer: FC = () => (
   <Container>
     <p>Feito com carinho por estudantes da Paraíba</p>
     <a
-      href="http://github.com/henry-ns"
+      href="http://github.com/henry-ns/coronavirusbr"
       rel="noopener noreferrer"
       target="_blank"
     >
