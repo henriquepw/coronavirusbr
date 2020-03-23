@@ -8,6 +8,17 @@ export const Container = styled(section)`
   align-items: center;
   justify-content: space-between;
 
+  div:first-of-type {
+    p,
+    h1 {
+      overflow: hidden;
+
+      span {
+        display: block;
+      }
+    }
+  }
+
   h1 {
     font-size: 4.8rem;
     color: ${({ theme }) => theme.colors.active};
@@ -22,11 +33,27 @@ export const Container = styled(section)`
   }
 
   div:nth-of-type(2) {
+    position: relative;
     height: 100vh;
     width: 40%;
 
     z-index: 15;
     pointer-events: none;
+
+    div {
+      height: 100%;
+      width: 100%;
+    }
+
+    span {
+      height: 100%;
+      width: 100%;
+
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: ${({ theme }) => theme.colors.active};
+    }
   }
 
   @media (min-width: ${media.smallTablet}) {

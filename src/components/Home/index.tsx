@@ -1,7 +1,8 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import gsap from 'gsap';
 
 import Button from '~/components/Button';
 
@@ -20,14 +21,43 @@ const Home: FC = () => {
     }
   `);
 
+  useEffect(() => {
+    const tl = gsap.timeline();
+
+    tl.from('#title span', 2, {
+      y: '100%',
+      ease: 'power3.out',
+      stagger: {
+        amount: 0.3,
+      },
+    })
+      .to('#main-img span', 1.6, {
+        x: '100%',
+        ease: 'expo.inOut',
+        delay: -0.8,
+      })
+      .from('#main-img img', 1.6, {
+        scale: 1.4,
+        ease: 'expo.inOut',
+        delay: -1.2,
+      });
+  }, []);
+
   return (
     <Container id="home">
-      <div>
-        <h1>Coronavírus BR</h1>
-        <p>Informando a população brasileira sobre o COVID-19</p>
+      <div id="title">
+        <h1>
+          <span>Coronavírus BR</span>
+        </h1>
+        <p>
+          <span>Informando a população brasileira sobre o COVID-19</span>
+        </p>
         <Button href="#cuidados">Saiba mais</Button>
       </div>
-      <Img fluid={image.sharp.fluid} />
+      <div id="main-img">
+        <Img fluid={image.sharp.fluid} />
+        <span />
+      </div>
     </Container>
   );
 };
