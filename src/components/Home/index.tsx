@@ -24,9 +24,7 @@ const Home: FC = () => {
     <Container id="home">
       <div>
         <h1>Coronavírus BR</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
-        </p>
+        <p>Informando a população brasileira sobre o COVID-19</p>
         <Button href="#cuidados">Saiba mais</Button>
       </div>
       <Img fluid={image.sharp.fluid} />
