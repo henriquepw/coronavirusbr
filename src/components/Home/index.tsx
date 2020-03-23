@@ -24,6 +24,9 @@ const Home: FC = () => {
   useEffect(() => {
     const tl = gsap.timeline();
 
+    // prevents flashing
+    gsap.to('#home', 0, { css: { visibility: 'visible' } });
+
     tl.from('#title span', 2, {
       y: '100%',
       ease: 'power3.out',

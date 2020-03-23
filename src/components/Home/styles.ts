@@ -8,6 +8,8 @@ export const Container = styled(section)`
   align-items: center;
   justify-content: space-between;
 
+  visibility: hidden;
+
   div:first-of-type {
     p,
     h1 {
@@ -34,6 +36,7 @@ export const Container = styled(section)`
 
   div:nth-of-type(2) {
     position: relative;
+    overflow: hidden;
     height: 100vh;
     width: 40%;
 
