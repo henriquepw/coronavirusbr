@@ -8,8 +8,8 @@
   {
     "id": 1,
     "title": "Dados sobre casos de Coronavírus no Brasil e no Mundo (COVID-19)",
-    "description": "Plataforma Integrada de Vigilância em Saúde que informa os dados sobre infectados no Brasil e no mundo. Possui também indicações de procedimentos a serem seguidos em um caso de suspeita",
-    "url": "http://plataforma.saude.gov.br/novocoronavirus/"
+    "description": "Site oficial do Ministério da Saúde. Contendo notícias mais recentes sobre o COVID-19 e mais notícias do ministério.",
+    "url": "https://saude.gov.br/"
   },
   {
     "id": 2,
