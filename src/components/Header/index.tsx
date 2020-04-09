@@ -12,10 +12,14 @@ const DATA = [
   },
   {
     key: 2,
-    name: 'Cuidados',
+    name: 'Sintomas',
   },
   {
     key: 3,
+    name: 'Cuidados',
+  },
+  {
+    key: 4,
     name: 'Links Úteis',
   },
 ];

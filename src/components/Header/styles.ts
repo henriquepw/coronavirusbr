@@ -10,7 +10,7 @@ export const Container = styled.header`
   position: fixed;
   background-color: ${({ theme }) => theme.colors.background};
 
-  @media (max-width: ${media.tablet}) {
+  @media (max-width: ${media.smallDesktop}) {
     background-color: transparent;
   }
 `;
@@ -37,7 +37,7 @@ export const Menu = styled.nav<MenuProps>`
     background-color: ${({ theme }) => theme.colors.background};
   }
 
-  @media (max-width: ${media.tablet}) {
+  @media (max-width: ${media.smallDesktop}) {
     svg {
       z-index: 5;
       display: block;
