@@ -29,14 +29,7 @@ export default createGlobalStyle`
     }
   }
 
-  html {
-    scroll-behavior: smooth;
-
-    overflow-x: hidden;
-  }
-
   html, body {
-    font: 62.5% 'Poppins', sans-serif;
     font-weight: 400;
 
     background-color: ${({ theme }) => theme.colors.background};
@@ -45,6 +38,13 @@ export default createGlobalStyle`
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    font: 62.5% 'Poppins', sans-serif;
 
     @media(max-width: ${media.phone}) {
       font: 54.6875% 'Poppins', sans-serif;
@@ -52,8 +52,9 @@ export default createGlobalStyle`
   }
 
   body.using-mouse {
-    * {
-      outline: none !important;
+      * {
+        outline: none !important;
+      }
     }
   }
 
