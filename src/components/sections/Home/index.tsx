@@ -55,7 +55,7 @@ const Home: FC = () => {
         <p>
           <span>Informando a população brasileira sobre o COVID-19</span>
         </p>
-        <Button href="#cuidados">Saiba mais</Button>
+        <Button href="#introducao">Saiba mais</Button>
       </div>
       <div id="main-img">
         <Img fluid={image.sharp.fluid} />
