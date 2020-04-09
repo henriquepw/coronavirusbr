@@ -58,7 +58,7 @@ function Links() {
 
   return (
     <Container id="links">
-      <Title title="Links úteis" subtitle="Para você não ficar perdido" />
+      <Title subtitle="Para você não ficar perdido">Links úteis</Title>
 
       <ul>
         {dataWithImages.map(item => (
