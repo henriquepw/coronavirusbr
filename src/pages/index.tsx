@@ -2,9 +2,9 @@ import React, { FC } from 'react';
 
 import Layout from '~/Layout';
 
-import Care from '~/components/Care';
-import Home from '~/components/Home';
-import Links from '~/components/Links';
+import Care from '~/components/sections/Care';
+import Home from '~/components/sections/Home';
+import Links from '~/components/sections/Links';
 
 const IndexPage: FC = () => (
   <Layout title="Home">

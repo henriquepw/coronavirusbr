@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { FluidObject } from 'gatsby-image';
 
-import Title from '../Title';
+import Title from '../../Title';
 import Information from './Information';
 
 import data from '~/assets/data/links.json';
