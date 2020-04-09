@@ -3,10 +3,8 @@ import styled from 'styled-components';
 import section from '~/styles/section';
 
 export const Container = styled(section)`
-  min-height: 100vh;
-
   h1 {
-    margin-top: 112px;
+    margin-top: 104px;
   }
 
   h2 {
@@ -40,7 +38,7 @@ export const Container = styled(section)`
     font-size: 1.6rem;
 
     padding: 0 32px;
-    margin: 96px 0;
+    margin: 96px 0 80px 0;
 
     border-radius: 25px;
     border: 2px solid ${({ theme }) => theme.colors.active};

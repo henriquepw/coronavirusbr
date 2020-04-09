@@ -24,7 +24,7 @@ export const Container = styled.li`
     }
 
     p {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       max-width: 800px;
       margin: 16px 0 64px;
     }
