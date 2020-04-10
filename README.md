@@ -1,27 +1,59 @@
 <p align="center">
-  <img alt="Icon" src="./src/assets/images/icon.png" width="60"/>
+  <img alt="Icon" src="./src/assets/images/icon.png" width="100"/>
 </p>
 <h1 align="center">
   Coronavírus BR
 </h1>
 
+<!-- Badges -->
 <p align="center">
-  <a href="https://github.com/henry-ns/portfolio/graphs/commit-activity" alt="Maintenance">
-    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  <a href="https://github.com/henry-ns/coronavirusbr/graphs/commit-activity" alt="Maintenance">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg" />
   </a>
-  <a href="https://coronavirusbr.netlify.com/" alt="Website coronavirusbr.netlify.com">
-    <img src="https://img.shields.io/website-up-down-green-red/https/coronavirusbr.netlify.com" />
+
+  <!-- if your app is a website -->
+  <a href="https://<link>" alt="Website <link>">
+    <img src="https://img.shields.io/website-up-down-blue-red/https/coronavirusbr.netlify.app" />
   </a>
+
+  <!-- License -->
   <a href="./LICENSE" alt="License: MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
+
+  <!-- codefactor -->
   <a href="https://www.codefactor.io/repository/github/henry-ns/coronavirusbr" alt="CodeFactor">
     <img src="https://www.codefactor.io/repository/github/henry-ns/coronavirusbr/badge" />
   </a>
 
-  <a href="https://app.netlify.com/sites/coronavirusbr/deploys" alt="Netlify Status">
+  <!-- if your app is a website deployed on Netlify -->
+  <a href="https://app.netlify.com/sites/<name>/deploys" alt="Netlify Status">
     <img src="https://api.netlify.com/api/v1/badges/35979589-a04b-4380-ad2a-c348c9b56c40/deploy-status" />
   </a>
+
+  <br/>
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/henry-ns/coronavirusbr?color=blue">
+
+  <!-- version -->
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/henry-ns/coronavirusbr">
+
+  <!-- GitHub repo size -->
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/henry-ns/coronavirusbr">
+
+  <!-- Social -->
+  <a href="https://github.com/henry-ns/coronavirusbr/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/henry-ns/coronavirusbr?style=social">
+  </a>
+</p>
+
+<!-- summary -->
+<p align="center">
+  <a href="#clipboard-descricao">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man-criadores">Criadores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#busts_in_silhouette-como-contruir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-o-que-tem-dentro">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 ## :clipboard: Descrição
@@ -58,15 +90,16 @@ Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma
 
 ## 🧐 O que tem dentro?
 
-### Tecnologias
+### :building_construction: Tecnologias
 - [Gatsby](https://www.gatsbyjs.org/)
 - [ReactJS](https://reactjs.org/)
 
-### Ferramentas de Linter
+### :lipstick: Ferramentas de Linter
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-### Pacotes
+### :package: Pacotes
 - [React Helmet Async](https://github.com/staylor/react-helmet-async)
 - [React Icons](https://react-icons.netlify.com/#/)
 - [Loadable Components](https://loadable-components.com/)
@@ -74,7 +107,7 @@ Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma
 - [Polished](https://polished.js.org/)
 - [Typeface Poppins](https://www.npmjs.com/package/typeface-poppins)
 
-### Gatsby plugins
+### :card_file_box: Gatsby plugins
 - [Google analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)
 - [Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/)
 - [Netlify](https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/)
@@ -87,3 +120,12 @@ Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma
 - [Sharp](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/)
 - [Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/)
 - [Styled Components](https://www.gatsbyjs.org/packages/gatsby-plugin-styled-components/)
+
+
+## :art: Icones
+
+Todos os icones foram foram feitos por [Freepik](https://www.flaticon.com/authors/freepik) disponível em [Flaticon](https://www.flaticon.com/home).
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

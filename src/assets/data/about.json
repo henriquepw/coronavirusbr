@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Um pouco sobre vírus",
+    "paragraph": [
+      "Todo vírus é um parasita intracelular obrigatório, ou seja, por não possuir metabolismo, os vírus precisam se utilizar da maquinaria celular de seres vivos para se reproduzir. A estrutura básica de um vírus é: seu material genético, que pode ser de DNA, de RNA ou de ambos, envolto por um capsídeo (um invólucro proteico). Alguns também possuem um envelope, uma membrana lipídica que envolve o capsídeo, entre os que possuem envelope temos os coronavírus."
+    ]
+  },
+  {
+    "title": "O Covid-19",
+    "paragraph": [
+      "O Covid-19, que é o coronavírus responsável pela pandemia de Covid-19 em 2019 e 2020, é um vírus respiratório. Uma vez dentro das células do sistema respiratório ele começa a se multiplicar indefinidamente, podendo gerar desde dezenas a centenas de milhares de novos vírus, o que acaba por destruir a célula na sua liberação. O período de incubação, isto é, o período que se dá desde a infecção até o surgimento dos primeiros sintomas, é relativamente longo, podendo levar de 4 a 14 dias.",
+      "Os vírus pertencentes a esse grupo possuem um genoma de RNA simples de sentido positivo, isto é, seu material genético é de RNA que serve diretamente para ser traduzido em proteínas, sem a necessidade de ser convertido em DNA, como no caso do vírus do HIV.",
+      "As proteínas que compõem o capsídeo viral são bem diferentes das que são produzidas pelo nosso corpo e, por isso, podem ser facilmente identificadas pelo nosso sistema imunológico. O envelope, por sua vez, é uma parte da membrana da célula hospedeira que o vírus leva consigo e, portanto, é mais difícil de ser identificada pelo nosso corpo. Assim, o envelope viral é uma estratégia adotada por alguns vírus para burlar o sistema imune do hospedeiro, essa estratégia, porém, possui alguns pontos negativos: o envelope lipídico é bem menos resistente que o capsídeo, e é por isso que esses vírus acabam por durar menos no ambiente. Além disso, pelo fato do envelope ser uma membrana lipídica, basta o uso de alguma substância que possa destruir gordura para se inativar o vírus, como o uso de sabão e álcool a 70%, por exemplo."
+    ]
+  },
+  {
+    "title": "Curiosidades",
+    "paragraph": [
+      "O nome corona vem do latim, e significa coroa, os vírus pertencentes a esse grupo recebem esse nome por terem um formato semelhante ao de uma coroa quando visto ao microscópio.",
+      "Pelo fato do envelope ser uma membrana lipídica, basta o uso de alguma substância que possa destruir gordura para se inativar o vírus, como o uso de sabão e álcool a 70%, por exemplo."
+    ]
+  }
+]

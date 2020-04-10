@@ -5,36 +5,20 @@ import NavItem from './NavItem';
 
 import { Container, Menu } from './styles';
 
-const DATA = [
-  {
-    key: 1,
-    name: 'Home',
-  },
-  {
-    key: 2,
-    name: 'Cuidados',
-  },
-  {
-    key: 3,
-    name: 'Links Úteis',
-  },
+const menuList = [
+  { id: 'menu1', title: 'Home', href: '/#home' },
+  { id: 'menu2', title: 'O que é', href: '/#o-que-e' },
+  { id: 'menu3', title: 'Sintomas', href: '/#sintomas' },
+  { id: 'menu4', title: 'Cuidados', href: '/#cuidados' },
+  { id: 'menu5', title: 'Links Úteis', href: '/#links' },
 ];
 
 function Header() {
   const [pressed, setPressed] = useState(false);
   const [selected, setSelected] = useState(() => {
-    const hash = window.location.hash.split('#')[1];
+    const { pathname, hash } = window.location;
 
-    if (
-      !DATA.filter(item => item.name.split(' ')[0].toLowerCase() === hash)
-        .length
-    ) {
-      return 'home';
-    }
-
-    window.location.hash = '';
-
-    return hash;
+    return pathname === '/sobre' ? '/sobre' : hash;
   });
 
   function handlerSelected(
@@ -60,9 +44,9 @@ function Header() {
       <Menu pressed={pressed}>
         <FaBars size={32} onClick={togglePressed} />
         <ul>
-          {DATA.map(item => (
+          {menuList.map(item => (
             <NavItem
-              key={`${item.key}_${item.name}`}
+              key={item.id}
               onClick={handlerSelected}
               selected={selected}
               item={item}

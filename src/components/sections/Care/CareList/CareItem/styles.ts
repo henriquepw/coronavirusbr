@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import media from '~/styles/media';
 
@@ -12,13 +12,28 @@ export const Container = styled.div<Props>`
   flex-direction: ${({ inverted }) => (inverted ? 'row-reverse' : 'row')};
 
   div {
-    margin: 0 40px;
     text-align: ${({ inverted }) => (inverted ? 'right' : 'left')};
     max-width: 563px;
 
-    @media (max-width: ${media.phone}) {
-      margin: 0 20px;
-    }
+    ${({ inverted }) =>
+      !inverted &&
+      css`
+        margin-left: 40px;
+
+        @media (max-width: ${media.phone}) {
+          margin-left: 20px;
+        }
+      `}
+
+    ${({ inverted }) =>
+      inverted &&
+      css`
+        margin-right: 40px;
+
+        @media (max-width: ${media.phone}) {
+          margin-right: 20px;
+        }
+      `}
   }
 
   p {

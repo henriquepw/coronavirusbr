@@ -5,11 +5,15 @@ interface Props {
 }
 
 export const Container = styled.li<Props>`
-  padding: 16px 32px;
   cursor: pointer;
 
   user-select: none;
   transition: all 0.2s ease;
+
+  a {
+    display: block;
+    padding: 16px 32px;
+  }
 
   &:hover {
     background-color: ${({ theme }) => theme.colors.active};

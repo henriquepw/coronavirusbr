@@ -1,27 +1,21 @@
 import React, { FC } from 'react';
 
-import loadable from '@loadable/component';
+import Layout from '~/Layout';
 
-import Care from '~/components/Care';
-import Footer from '~/components/Footer';
-import Home from '~/components/Home';
-import Links from '~/components/Links';
-import SEO from '~/components/SEO';
-
-import GlobalStyle from '~/styles/global';
-
-const Header = loadable(() => import('~/components/Header'));
+import Care from '~/components/sections/Care';
+import Home from '~/components/sections/Home';
+import Introduction from '~/components/sections/Introduction';
+import Links from '~/components/sections/Links';
+import Symptoms from '~/components/sections/Symptoms';
 
 const IndexPage: FC = () => (
-  <>
-    <GlobalStyle />
-    <Header />
-    <SEO title="Home" />
+  <Layout title="Home">
     <Home />
+    <Introduction />
+    <Symptoms />
     <Care />
     <Links />
-    <Footer />
-  </>
+  </Layout>
 );
 
 export default IndexPage;
