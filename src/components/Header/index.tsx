@@ -43,18 +43,16 @@ function Header() {
     <Container>
       <Menu pressed={pressed}>
         <FaBars size={32} onClick={togglePressed} />
-        <nav>
-          <ul>
-            {menuList.map(item => (
-              <NavItem
-                key={item.id}
-                onClick={handlerSelected}
-                selected={selected}
-                item={item}
-              />
-            ))}
-          </ul>
-        </nav>
+        <ul>
+          {menuList.map(item => (
+            <NavItem
+              key={item.id}
+              onClick={handlerSelected}
+              selected={selected}
+              item={item}
+            />
+          ))}
+        </ul>
       </Menu>
     </Container>
   );
