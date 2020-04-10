@@ -79,9 +79,29 @@ export const Container = styled(section)`
 
   @media (max-width: ${media.tablet}) {
     padding-top: 32px;
+
+    h1 {
+      margin-bottom: 0;
+    }
   }
 
   @media (max-width: ${media.bigPhone}) {
     padding: 32px 24px 80px;
+
+    li img {
+      height: 128px;
+    }
+
+    li:first-of-type {
+      margin-top: 16px;
+    }
+
+    li:nth-child(odd) img {
+      margin-right: 24px;
+    }
+
+    li:nth-child(even) img {
+      margin-left: 24px;
+    }
   }
 `;

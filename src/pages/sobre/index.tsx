@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, Fragment } from 'react';
 
 import Layout from '~/Layout';
 
@@ -25,12 +25,12 @@ const Sobre: FC = () => (
       <h1>Sobre</h1>
 
       {data.slice(0, 2).map(block => (
-        <>
+        <Fragment key={block.title}>
           <h2>{block.title}</h2>
           {block.paragraph.map(paragraph => (
             <p key={paragraph.slice(0, 10)}>{paragraph}</p>
           ))}
-        </>
+        </Fragment>
       ))}
 
       <h2>{data[2].title}</h2>
