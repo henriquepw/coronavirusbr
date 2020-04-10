@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import media from '~/styles/media';
 import section from '~/styles/section';
 
 export const Container = styled(section)`
@@ -13,6 +14,8 @@ export const Container = styled(section)`
   }
 
   div:nth-of-type(2) {
+    position: relative;
+
     max-width: 1021px;
     margin: 0 auto;
 
@@ -22,6 +25,27 @@ export const Container = styled(section)`
 
       img {
         margin-right: 40px;
+      }
+    }
+
+    @media (max-width: ${media.bigPhone}) {
+      div {
+        flex-direction: column;
+
+        img {
+          position: absolute;
+
+          top: 0;
+          left: 0;
+        }
+      }
+
+      h2:first-of-type {
+        padding-top: 174px;
+      }
+
+      h2 {
+        margin-bottom: 16px;
       }
     }
   }
