@@ -37,7 +37,7 @@ export const Menu = styled.nav<MenuProps>`
     background-color: ${({ theme }) => theme.colors.background};
   }
 
-  @media (max-width: ${media.smallDesktop}) {
+  @media (max-width: ${+media.smallDesktop.split('px')[0] + 110}px) {
     svg {
       z-index: 5;
       display: block;

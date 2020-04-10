@@ -10,7 +10,7 @@ import virus from '~/assets/svg/virus.svg';
 import { Container } from './styles';
 
 const Introduction: FC = () => (
-  <Container id="introducao">
+  <Container id="o-que-e">
     <Title subtitle="Uma pequena introdução">O que é?</Title>
 
     <div>

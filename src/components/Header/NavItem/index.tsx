@@ -1,4 +1,6 @@
-import React, { FC, useMemo } from 'react';
+import React, { FC } from 'react';
+
+import { Link } from 'gatsby';
 
 import { Container } from './styles';
 
@@ -6,32 +8,21 @@ type Event<T> = React.MouseEvent<T, MouseEvent>;
 
 interface Props {
   item: {
-    key: number;
-    name: string;
+    id: string;
+    title: string;
+    href: string;
   };
   selected: string;
   onClick: (event: Event<HTMLLIElement>, name: string) => void;
 }
 
-const NavItem: FC<Props> = ({ item, selected, onClick }) => {
-  const formattedName = useMemo(() => item.name.toLowerCase().split(' ')[0], [
-    item.name,
-  ]);
-
-  function preventDefault(event: Event<HTMLAnchorElement>) {
-    event.preventDefault();
-  }
-
-  return (
-    <Container
-      onClick={e => onClick(e, formattedName)}
-      selected={selected === formattedName}
-    >
-      <a href={`#${formattedName}`} onClick={preventDefault}>
-        {item.name}
-      </a>
-    </Container>
-  );
-};
+const NavItem: FC<Props> = ({ item, selected, onClick }) => (
+  <Container
+    onClick={e => onClick(e, item.href)}
+    selected={selected === item.href}
+  >
+    <Link to={item.href}>{item.title}</Link>
+  </Container>
+);
 
 export default NavItem;
