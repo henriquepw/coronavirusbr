@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import media from '~/styles/media';
 import section from '~/styles/section';
 
 export const Container = styled(section)`
@@ -36,6 +37,23 @@ export const Container = styled(section)`
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
+
+      span {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  @media (max-width: ${media.smallTablet}) {
+    h2 {
+      margin-bottom: 16px;
+    }
+  }
+
+  @media (max-width: ${media.phone}) {
+    img {
+      height: 100px;
     }
   }
 `;
