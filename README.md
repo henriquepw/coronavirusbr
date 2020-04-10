@@ -87,3 +87,8 @@ Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma
 - [Sharp](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/)
 - [Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/)
 - [Styled Components](https://www.gatsbyjs.org/packages/gatsby-plugin-styled-components/)
+
+
+## :card_file_box: Icones
+
+Todos os icones foram foram feitos por [Freepik](https://www.flaticon.com/authors/freepik) disponível em [Flaticon](https://www.flaticon.com/home).

@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { FluidObject } from 'gatsby-image';
 
-import Title from '../Title';
+import Title from '../../Title';
 import Information from './Information';
 
 import data from '~/assets/data/links.json';
@@ -58,7 +58,7 @@ function Links() {
 
   return (
     <Container id="links">
-      <Title title="Links úteis" subtitle="Para você não ficar perdido" />
+      <Title subtitle="Para você não ficar perdido">Links úteis</Title>
 
       <ul>
         {dataWithImages.map(item => (
