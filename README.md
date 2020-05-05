@@ -49,7 +49,7 @@
 
 <!-- summary -->
 <p align="center">
-  <a href="#clipboard-descricao">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#man-criadores">Criadores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#busts_in_silhouette-como-contruir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-o-que-tem-dentro">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -126,6 +126,6 @@ Qualquer problema, bug, dúvida, sugestões entre outras coisas, basta abrir uma
 
 Todos os icones foram foram feitos por [Freepik](https://www.flaticon.com/authors/freepik) disponível em [Flaticon](https://www.flaticon.com/home).
 
-## :memo: License
+## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
