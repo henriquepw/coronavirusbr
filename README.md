@@ -8,17 +8,17 @@
 <!-- Badges -->
 <p align="center">
   <a href="https://github.com/henry-ns/coronavirusbr/graphs/commit-activity" alt="Maintenance">
-    <img src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg" />
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-1EAE72.svg" />
   </a>
 
   <!-- if your app is a website -->
   <a href="https://<link>" alt="Website <link>">
-    <img src="https://img.shields.io/website-up-down-blue-red/https/coronavirusbr.netlify.app" />
+    <img src="https://img.shields.io/website-up-down-1EAE72-red/https/coronavirusbr.netlify.app" />
   </a>
 
   <!-- License -->
   <a href="./LICENSE" alt="License: MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+    <img src="https://img.shields.io/badge/License-MIT-1EAE72.svg" />
   </a>
 
   <!-- codefactor -->
