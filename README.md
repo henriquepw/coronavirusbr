@@ -12,8 +12,8 @@
   </a>
 
   <!-- if your app is a website -->
-  <a href="https://<link>" alt="Website <link>">
-    <img src="https://img.shields.io/website-up-down-1EAE72-red/https/coronavirusbr.netlify.app" />
+  <a href="https://coronavirusbr.thehenry.dev" alt="Website coronavirusbr.thehenry.dev">
+    <img src="https://img.shields.io/website-up-down-1EAE72-red/https/coronavirusbr.thehenry.dev" />
   </a>
 
   <!-- License -->
