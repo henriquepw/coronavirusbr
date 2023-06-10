@@ -7,7 +7,7 @@
   "dependencies": {
     "@loadable/component": "^5.12.0",
     "babel-plugin-polished": "^1.1.0",
-    "gatsby": "^2.19.9",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-google-analytics": "^2.1.38",
     "gatsby-plugin-manifest": "^2.2.39",
